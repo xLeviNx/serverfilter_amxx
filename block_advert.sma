@@ -57,7 +57,7 @@ public FmClientUserInfoChanged(pClient, Infobuffer)
 				{
 					flWaitName[pClient] = flCurrentTime + TIME_WAIT;
 					FM_ChangeName(pClient, sOldName, Infobuffer);
-					return FMRES_HANDLED; // Ð•ÑÐ»Ð¸ Ð½Ðµ Ð±Ð»Ð¾Ñ‡Ð¸Ñ‚ÑÑ Ð¼ÐµÑÑÐ°Ð³Ð° Ð² Ñ‡Ð°Ñ‚Ðµ, Ñ‚Ð¾ Ð·Ð°Ð¼ÐµÐ½Ð¸Ñ‚Ðµ FMRES_HANDLED Ð½Ð° FMRES_SUPERCEDE
+					return FMRES_HANDLED; 
 				}
 				flWaitName[pClient] = flCurrentTime + TIME_WAIT;
 			}
